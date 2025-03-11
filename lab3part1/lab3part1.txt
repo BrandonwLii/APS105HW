@@ -1,0 +1,7 @@
+The table below shows the normal boiling points of several substances. Write a C program that prompts the user for the observed boiling point of a substance in degree Celsius (∘C) (as an integer), and identifies the substance if the observed boiling point is within t∘C of the expected boiling point, where tt is a threshold defined by the user. If the data input is not within t∘C of any of the boiling points in the table, the program should output the message: Substance unknown.
+Substance	Normal boiling point (∘C)
+Water	100
+Mercury	357
+Copper	1187
+Silver	2193
+Gold	2660

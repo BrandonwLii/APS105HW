@@ -1,0 +1,1 @@
+ou have a friend visiting from the US who is not familiar with the metric system. Write a C program that helps your friend convert a given length in centimeters to feet and inches. The program should ask the user to enter the length in centimeters and then print the equivalent length in feet and inches. The conversion is as follows: 1 foot = 12 inches and 1 inch = 2.54 cm. 

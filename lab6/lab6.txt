@@ -1,0 +1,21 @@
+In this lab, you will implement a simplified version of Connect Four using C programming. Connect Four is a two-player game where players take turns dropping colored pieces into a vertical grid. The goal of the game is to connect four of the same color in a row, column, or diagonal before the opponent does.
+
+The board consists of 6 rows and 6 columns, and players alternate turns dropping pieces into a selected column. The piece falls to the lowest available row in the chosen column.
+
+Your implementation should:
+
+    Print the board after each move
+    Prompt the user for column input between 0-5 to drop a piece.
+    Validate column entered is within bounds of the array and is not full.
+    Check for a winner or a tie, which happens when the board is full and there is no winner.
+    Display the final board when the game ends.
+
+Game Rules
+
+Players and Turns: Two players take turns. Player 1 (Red) represented by 'R', and player 2 (Yellow) represented by 'Y'. The game starts with player 1 (Red) always.
+
+Valid Moves: Players choose a column index (0-5) to drop their piece. Your program should validate that the selected column index is between 0 and 5, and is not full column, since the piece has to fall to the lowest available row. If a player chooses a full column or an index not within the bounds of the array, they must re-enter their choice. To prompt or re-prompt the user, use either Yellow, please enter a valid column number (0-5): or Red, please enter a valid column number (0-5): (not followed by a newline character) depending on which player's turn it is.
+
+Winning Condition: A player wins if they connect four pieces in a row: horizontally (left to right), vertically (top to bottom) and/or diagonally (both directions). The game announces the winner immediately when four pieces are connected, i.e. your code prints Yellow wins! or Red wins! (followed by a new line).
+
+Game Over: The game ends when a player wins or when the board is full (resulting in a tie). If the board is full and no player has won, print It's a tie! (followed by a new line character), then print Final board: (followed by a newline character) and print the board.

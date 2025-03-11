@@ -1,0 +1,11 @@
+You are not allowed to use the math library for this part.
+
+Write a program which counts the number of "three-seven numbers" a user inputs. A "three-seven number" is defined as a number containing exactly three 7s in its digits. The keyword here is exactly.
+
+The program:
+
+    Repeatedly prompts the user to enter an integer. The user can enter as many numbers as they wish, one at a time. To stop entering numbers, the user inputs 0.
+
+    Checks if each entered number is a "three-seven numbers". If it is, the program increments a counter.
+
+    Once the user inputs 0, the program stops accepting inputs and prints out the total count of "three-seven numbers" entered.

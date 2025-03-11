@@ -1,0 +1,28 @@
+You are not allowed to use the math library for this part.
+
+We will estimate the value of ππ using the Monte Carlo Estimation method by examining the ratio of points falling inside a quarter circle to the total points in the encompassing square.
+
+Monte Carlo Estimation method depends on the following facts:
+
+    The ratio of the area of a circle and the area of its encompasing square is circle area/square area=πr^2/4r^2=π/4, where r is the radius of the circle.
+
+    The ratio is consistent for a quarter circle within a unit square as shown in Fig.4.
+
+    The area of the square in Fig.4 is 1.
+
+    The area of the circle in Fig.4 is πr^2/4​. Since the radius is 1, then it's π/4​.
+
+To estimate the value of ππ,
+
+    Generate (x,y) coordinates in the dotted square in Fig.4,
+
+    Determine the ratio of the number of points in the circle to the total number of points generated. Recall the equation for a unit circle is x^2+y^2=1.
+
+    Estimate π using π=4×number of coordinates in circle/total number of points generated
+
+To implement the Monte Carlo Estimation,
+
+    Use the provided randDouble function below to generate two random numbers for the value of the xx and yy coordinate.
+    Write a function, inBounds, the prototype of which is given below. The function receives the values of (x,y) coordinates and returns true if they fall within the grey shaded region in Fig.4, and false otherwise.
+    The user can input the number of iterations, for each iteration generate one point and your program should count how many generated points fall in the grey area after all the iterations. The estimated value of ππ should be rounded to 4 decimal places.
+    You MUST set your seed to 42 while submitting your code. Otherwise, your code will fail test cases on CompEng.gg.

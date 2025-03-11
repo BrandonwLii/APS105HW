@@ -1,0 +1,12 @@
+Write a C program that calculates the electrostatic force between two charges using Coulomb's Law. The law is mathematically expressed as
+F=k⋅∣q1⋅q2∣/r^2
+
+where F is the electrostatic force, k is the Coulomb's constant 8.9875×10^9N⋅m^2/C^2, q1​ and q2 are the values of two point charges in Coulomb (C) and r is the distance between the charges in meters (m).
+
+Your program should accept the values of q1​ and q2​ as input, along with the units in which they are expressed. Assume the user will enter the unit as either nC for nano Coulomb or uC for micro Coulomb. Hint: You can read teh charge and individual characters from the input using scanf with multiple format specifiers.
+
+The user also enters the distance between the charges as a floating point number in meters. The user will not enter the unit of the distance.
+
+You need to convert the value of q1​ or q2​ to Coulomb to calculate the force using Coulomb's law. You are allowed to include the math.h library. The equation outputs force in Newton (N).
+
+Print the force rounded to 2 decimal places. If the force is strictly less than 1 micro Newton (1μN), use nN unit and print that it is (less than 1uN). Otherwise, if the force is strictly less than 1 milli Newton (1mN), use uN unit and print that it is (less than 1mN). Otherwise, if the force is strictly less than 1 Newton, use mN unit and print that it is (less than 1N). Otherwise, use N unit and print that it is (1N or greater).

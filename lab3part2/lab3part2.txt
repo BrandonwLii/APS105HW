@@ -1,0 +1,15 @@
+You are a member of team participating in a basketball shooting competition. Kareem and Aaron are in your team. You are required to build a robot to shoot at a basketball rim. The team that scores the most is the winner.
+
+Write a program that finds the angle at which the robot should throw the ball. It is angle αα in the following figure.
+
+This is a projectile problem, and the following is what the competition organizers give you.
+
+    The speed with which the robot throws the ball is v=20 m/s.
+    The robot will stand at a horizontal distance dd between 3 and 30 m (inclusive).
+    The basketball rim will be at a vertical height HH between 3 and 6 m (inclusive).
+    The height of the robot is l=2 m.
+
+vx​=v⋅cos(α),(1)
+vy,0=v⋅sin(α),(2)
+ttravel=d/vx=d/v⋅cos(α),(3)
+y=l+vy,0⋅t−1/2⋅g⋅t^2,(4)

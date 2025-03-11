@@ -1,0 +1,14 @@
+In order for an object to escape a planet's gravitational pull, it must attain a minimum initial velocity called the escape velocity. The escape velocity varies from planet to planet but it is the same for all objects on a given planet. Assume that we are analyzing the data that a small probe has collected while exploring some mystery planet. The probe has managed to obtain the circumference of the planet and the acceleration due to gravity at the surface. The probe must now determine what initial velocity it requires for takeoff in order to remove itself from the planet's gravitational force.
+
+Write a C program that will determine this velocity. Your program should first prompt the user for the circumference of the planet and then the acceleration due to gravity on the planet. From this information your program should determine the radius, mass, and escape velocity of the planet using the following equations.
+vescape=sqrt(2Gm/r)
+vescape​=Gm/r^2​
+​
+a=Gm/r^2
+
+In these equations, mm kg is the planet's mass, rr km is the planet's radius, GG is the gravitational constant approximated by 6.6726×10^−11m^3kg^−1, and a m/s^2 is the acceleration due to gravity on the surface of the planet.
+note
+
+The circumference of a circle is 2πr2πr where rr is the radius of the circle.
+
+Your program should print messages for the user and produce output as shown below. This follows the same format as described in previous examples. Inputs are shown in bold

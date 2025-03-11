@@ -1,0 +1,1 @@
+Basic hello world style assignment to get introduced to git, linux shell commands, and C
