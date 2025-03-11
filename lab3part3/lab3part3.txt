@@ -1,0 +1,7 @@
+Write a C program that simulates an ATM machine distributing cash to a customer. The program should prompt the user to enter an amount in dollars. Ensure the amount is a multiple of $5. If not, repeatedly prompt the user until a valid amount is entered.
+
+Then, the program should calculate and display the number of bills for the denominations $100, $50, $20, $10, and $5 that sum to the entered amount, using the largest denominations first.
+
+Only print the denominations used (e.g., if no $50 bills are needed, do not print $50: 0).
+
+You can assume no negative numbers will be entered, no more than 100 bills of any denomination will be needed, and the entered amount will an integer.
