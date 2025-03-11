@@ -1,2 +1,2 @@
 # APS105HW
-Homework for the University of Toronto APS105 Computer Fundamentals course 
+Coding Assignments for the University of Toronto APS105 Computer Fundamentals course 
